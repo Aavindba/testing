@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rev_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Rev Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Rev_Sou__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ad R</fullName>
+                <default>false</default>
+                <label>Ad R</label>
+            </value>
+            <value>
+                <fullName>Dir</fullName>
+                <default>false</default>
+                <label>Dir</label>
+            </value>
+            <value>
+                <fullName>Ven I</fullName>
+                <default>false</default>
+                <label>Ven I</label>
+            </value>
+            <value>
+                <fullName>non</fullName>
+                <default>false</default>
+                <label>non</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Ven</controllingFieldValue>
+            <valueName>Ven I</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agn</controllingFieldValue>
+            <controllingFieldValue>Non end</controllingFieldValue>
+            <valueName>Ad R</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agn</controllingFieldValue>
+            <valueName>Dir</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non end</controllingFieldValue>
+            <valueName>non</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
