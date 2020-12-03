@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>Outlet__c</defaultLandingTab>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>KFC</label>
+    <logo>KFC_Logo_Folder/KFC_Logo.png</logo>
+    <tabs>Employee__c</tabs>
+    <tabs>Outlet__c</tabs>
+    <tabs>Head_Office__c</tabs>
+</CustomApplication>
